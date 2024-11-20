@@ -1,0 +1,101 @@
+body{
+}
+
+h1{
+    text-align: center;
+    font-size: 35px;
+}
+
+header{
+    font-size: 50px; 
+    text-align: center; 
+    background-color: aquamarine;
+}
+
+footer{
+    background-image: url(Images/backg.webp);
+    /* height: 200px; Makes the area of the footer bigger */
+    padding: 100px; /* Adds space inside the footer */
+    font-size: large;
+    margin-top: 20px;
+    color: white;
+}
+
+.info img{
+    margin-top: 5%;
+    margin-left: 40px;
+    border: 5px solid yellow;
+    border-radius: 5px;
+}
+
+.info{
+    background-image: url(Images/backg.webp);
+    background-size: cover;        /* Ensures the image covers the entire area */
+    background-repeat: no-repeat;  /* Prevents the image from repeating */
+    background-position: center;   /* Centers the image */
+    display: flex;
+    justify-content: space-between; /* Adds space between items */
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: solid;
+    color: white;
+    padding-bottom: 10%;
+    padding-right: 30px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column; /* Stack the text vertically */
+    padding-top: 70px; /* Add padding for spacing */
+    color: white;
+}
+
+.info a{
+    color: white;
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+.format{
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+
+.format img{
+    background-size: cover;
+    background-position: center;
+    width: 90% ;
+    height: 20%;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+.formattext{
+    font-size: 20px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+a:hover{
+    color: rgb(39, 186, 235);
+    border: rgb(39, 186, 235);
+}
+
+a.button {
+    display: inline-block;
+    padding: 8px 10px;
+    color: rgb(157, 72, 16);
+    text-decoration: none;
+    border: 2px solid black;
+    margin-left: 45%;
+    transition: color 0.5s ease, border 0.5s ease, transform 3s ease-in-out;
+}
+
+a.button:hover{
+    color: rgb(212, 194, 36);
+    border: 2px solid rgb(212, 194, 36);
+}
